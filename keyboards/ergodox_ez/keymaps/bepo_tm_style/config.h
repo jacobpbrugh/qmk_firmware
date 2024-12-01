@@ -25,4 +25,4 @@
 
 #define TAPPING_TOGGLE  1
 #define TAPPING_TERM    150
-#define IGNORE_MOD_TAP_INTERRUPT
+

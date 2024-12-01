@@ -42,7 +42,7 @@
 #define PERMISSIVE_HOLD
 //// Disable mod tap interrrupt
 //#ifndef IGNORE_MOD_TAP_INTERRUPT
-//#define IGNORE_MOD_TAP_INTERRUPT
+//
 //#endif // !mod tap interrrupt
 
 //set max breathing brightness on kbd6x

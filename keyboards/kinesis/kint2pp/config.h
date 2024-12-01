@@ -17,7 +17,7 @@
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
-#define IGNORE_MOD_TAP_INTERRUPT
+
 
 // The Teensy 2++ consumes about 60 mA of current at its full speed of 16 MHz as
 // per https://www.pjrc.com/teensy/low_power.html

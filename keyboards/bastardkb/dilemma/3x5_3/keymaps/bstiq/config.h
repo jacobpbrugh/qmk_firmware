@@ -69,7 +69,7 @@
  * With `IGNORE_MOD_TAP_INTERRUPT`, within `TAPPING_TERM`:
  *   Mod(a)🠗 e🠗 Mod(a)🠕 e🠕 ➞ ae
  */
-#define IGNORE_MOD_TAP_INTERRUPT
+
 
 /** Dilemma-specific features. */
 

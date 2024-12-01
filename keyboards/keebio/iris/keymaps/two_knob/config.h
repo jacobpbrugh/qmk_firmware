@@ -14,7 +14,7 @@
 #define SPLIT_LAYER_STATE_ENABLE
 
 /* If you type too fast, it confuses the Mod key combos. This resolves it: */
-#define IGNORE_MOD_TAP_INTERRUPT
+
 
 /* Set tapdance speed */
 #define TAPPING_TERM 210

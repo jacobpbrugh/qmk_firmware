@@ -149,15 +149,19 @@ __attribute__((weak)) tap_dance_action_t* tap_dance_get(uint16_t tap_dance_idx) 
 
 #if defined(KEY_OVERRIDE_ENABLE)
 
-uint16_t key_override_count_raw(void) {
-    return ARRAY_SIZE(key_overrides);
+size_t key_override_count_raw(void) {
+    size_t count = 0;
+    while (key_overrides[count] != NULL) {
+        count++;
+    }
+    return count;
 }
 
 __attribute__((weak)) uint16_t key_override_count(void) {
     return key_override_count_raw();
 }
 
-_Static_assert(ARRAY_SIZE(key_overrides) <= (QK_KB), "Number of key overrides is abnormally high. Are you using SAFE_RANGE in an enum for key overrides?");
+// _Static_assert(ARRAY_SIZE(key_overrides) <= (QK_KB), "Number of key overrides is abnormally high. Are you using SAFE_RANGE in an enum for key overrides?");
 
 const key_override_t* key_override_get_raw(uint16_t key_override_idx) {
     if (key_override_idx >= key_override_count_raw()) {

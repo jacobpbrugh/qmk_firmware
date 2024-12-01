@@ -29,7 +29,7 @@
 // convert to other keys on hold (z becomes ctrl when you hold it,
 // and when this option isn't enabled, z rapidly followed by x
 // actually sends Ctrl-x. That's bad.)
-#define IGNORE_MOD_TAP_INTERRUPT
+
 #undef PERMISSIVE_HOLD
 //#define QUICK_TAP_TERM 0
 //#define RETRO_TAPPING

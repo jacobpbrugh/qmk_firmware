@@ -15,7 +15,7 @@
  */
 #pragma once
 
-#define IGNORE_MOD_TAP_INTERRUPT //helps with homerow mods
+ //helps with homerow mods
 
 #undef TAPPING_TERM
 #define TAPPING_TERM 300

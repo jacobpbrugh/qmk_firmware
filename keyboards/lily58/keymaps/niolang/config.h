@@ -26,7 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define EE_HANDS
 
 /* Necessary because of use fo tap dance for ç (leads to un wanted modifications after typing c if not) */
-#define IGNORE_MOD_TAP_INTERRUPT
+
 
 /* RGB light */
 #ifdef RGBLIGHT_ENABLE

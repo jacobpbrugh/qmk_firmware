@@ -24,7 +24,7 @@
 #define TAPPING_TERM 300
 
 // Prevent normal rollover on alphas from accidentally triggering mods.
-#define IGNORE_MOD_TAP_INTERRUPT
+
 
 // Auto Shift and Retro Shift (Auto Shift for Tap Hold).
 #define AUTO_SHIFT_TIMEOUT TAPPING_TERM

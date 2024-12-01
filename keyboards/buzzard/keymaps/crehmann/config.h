@@ -7,7 +7,7 @@
 #define TAPPING_TERM 200
 
 // Prevent normal rollover on alphas from accidentally triggering mods.
-#define IGNORE_MOD_TAP_INTERRUPT
+
 
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
 #define QUICK_TAP_TERM 0
@@ -21,12 +21,12 @@
 #ifdef HAPTIC_ENABLE
 // this configuration has no effect because the haptic exclusion is implemented with
 // __attribute__((weak)) bool get_haptic_enabled_key(uint16_t keycode, keyrecord_t *record)
-// in the default keymap and reacts only to mouse clicks. 
+// in the default keymap and reacts only to mouse clicks.
 //#define NO_HAPTIC_MOD
 #define NO_HAPTIC_FN
 #define NO_HAPTIC_ALPHA
 #define NO_HAPTIC_PUNCTUATION
-#define NO_HAPTIC_NAV 
+#define NO_HAPTIC_NAV
 #define NO_HAPTIC_NUMERIC
 #define DRV_GREETING       alert_750ms
 #define DRV_MODE_DEFAULT   sharp_tick1

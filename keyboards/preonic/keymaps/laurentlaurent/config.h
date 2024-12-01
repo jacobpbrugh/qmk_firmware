@@ -34,5 +34,5 @@
 //#define MIDI_TONE_KEYCODE_OCTAVES 2
 
 // Fix Home Row mod keys
-#define IGNORE_MOD_TAP_INTERRUPT
+
 //#define RETRO_TAPPING
