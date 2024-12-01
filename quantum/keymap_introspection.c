@@ -149,7 +149,7 @@ __attribute__((weak)) tap_dance_action_t* tap_dance_get(uint16_t tap_dance_idx) 
 
 #if defined(KEY_OVERRIDE_ENABLE)
 
-size_t key_override_count_raw(void) {
+uint16_t key_override_count_raw(void) {
     size_t count = 0;
     while (key_overrides[count] != NULL) {
         count++;
