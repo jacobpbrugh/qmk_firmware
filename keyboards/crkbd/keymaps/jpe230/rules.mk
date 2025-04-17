@@ -1,6 +1,6 @@
 # Shared rules for both of my Corne
 OLED_ENABLE       = yes
-OLED_DRIVER       = SSD1306
+
 VIA_ENABLE        = yes
 RGB_MATRIX_ENABLE = yes
 

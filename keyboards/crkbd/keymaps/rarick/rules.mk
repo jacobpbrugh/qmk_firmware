@@ -5,7 +5,7 @@ BOOTLOADER = atmel-dfu
 RGB_MATRIX_ENABLE = yes
 
 # Enable OLED driver
-OLED_DRIVER_ENABLE = yes
+
 
 # Enable media keys
 EXTRAKEY_ENABLE = yes
